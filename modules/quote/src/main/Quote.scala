@@ -1583,12 +1583,12 @@ object Quote {
     ),
     new Quote("Chess as a game is too serious; as a serious pursuit too frivolous.", "Moses Mendelssohn"),
     new Quote("Chess makes me a better person", "Albert Badosa"),
+    new Quote("I never lose. I either win or learn.", "Nelson Mandela"),
     // lichess facts
     new Quote("All features for free; for everyone; forever.", "lichess.org"),
     new Quote("We will never display ads.", "lichess.org"),
     new Quote("We do not track you. It's a rare feature, nowadays.", "lichess.org"),
-    new Quote("Every chess player is a premium user.", "lichess.org"),
-    new Quote("I never lose. I either win or learn.", "Nelson Mandela")
+    new Quote("Every chess player is a premium user.", "lichess.org")
   )
 
   implicit def quoteWriter: OWrites[Quote] =
